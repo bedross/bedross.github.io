@@ -1,0 +1,52 @@
+#table-wres-leitourgias{
+    float: left;
+    background-color: #49575d;
+    height: 480px;
+    width: 60%;
+    border-radius: 13%;
+    overflow: hidden;
+}
+
+#daysOfWeek{
+    float: left;
+    color: white;
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+#hoursOfWeek{
+    float: right;
+    color: white;
+    margin-right: 25px;
+    font-size: x-large;
+    text-align: right;
+}
+
+#wres-leitourgias{
+    text-align: center;
+    color: white;
+}
+
+#line-wres-leitourgias{
+    position: absolute;
+    width: 160px;
+    height: 3px;
+    border-radius: 30%;
+    background-color: white;
+    margin-top: 75px;
+    margin-left: 540px;
+}
+
+#glass-cover{
+    float: left;
+    background-color: rgba(255, 255, 255,0.8);
+    backdrop-filter: blur(100);
+    height: 480px;
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 5px;
+    border-radius: 15%;
+}
+
+
+

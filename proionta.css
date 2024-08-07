@@ -1,0 +1,9 @@
+#line-proionta{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    border-radius: 30%;
+    background-color: white;
+    margin-top: 75px;
+    margin-left: 420px;
+}
