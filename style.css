@@ -6,12 +6,15 @@ body{
     height: 100px;
     float: left;
     margin-right: 80px;
+    position: absolute;
 }
 
 #box1{
     height: 100px;
     width: auto;
     background-color: #49575d;
+    padding-left: 300px;
+    overflow: hidden;
 }
 
 #contactInfo{
@@ -27,7 +30,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
+    float: none;
 
 }
 
@@ -41,15 +44,10 @@ body{
     color: rgb(0, 0, 0);
     font-size: xxx-large;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     
 }
 
-#welcomeMessage{
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace;
-    margin-right: 50%;
-}
 
 #footer{
     width: auto;
@@ -58,7 +56,7 @@ body{
 }
 
 #nyxia{
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .menuBar button{
@@ -81,7 +79,7 @@ body{
 .menuBar .subMenuBar{
     display: none;
     position: absolute;
-    margin-left: 240px;
+    margin-left: -13px;
     margin-top: 75px;
     background-color: white;
     min-width: 100px;
