@@ -2,7 +2,7 @@
     float: left;
     background-color: #49575d;
     height: 480px;
-    width: 60%;
+    width: 50%;
     border-radius: 13%;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@
     border-radius: 30%;
     background-color: white;
     margin-top: 75px;
-    margin-left: 287px;
+    margin-left: 436px;
 }
 
 #glass-cover{
@@ -47,6 +47,3 @@
     margin-left: 5px;
     border-radius: 15%;
 }
-
-
-

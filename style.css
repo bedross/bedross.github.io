@@ -3,10 +3,12 @@ body{
 }
 
 #mainLogo{
-    height: 100px;
+    height: 75px;
     float: left;
-    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
     position: absolute;
+
 }
 
 #box1{
@@ -48,6 +50,18 @@ body{
     
 }
 
+#phoneNumber{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    gap: 0;
+}
+
+#telephone{
+    height: 35px;
+    margin-top: 17px;
+    filter: invert();
+}
 
 #footer{
     width: auto;
@@ -57,6 +71,17 @@ body{
 
 #nyxia{
     margin-left: 75px;
+}
+
+.contactInfo{
+    font-size: small;
+    float: right;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    line-height: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .menuBar button{
@@ -102,15 +127,15 @@ body{
 .center-align{
     display: flex;
     flex-direction: column;
-
     align-items: center;
 }
 
 .social{
     float: right;
     width: 20px;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 4px;
+    margin-right: 4px;
     filter: invert(100);
 }
 
