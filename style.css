@@ -210,3 +210,18 @@ body{
 .show{
     opacity: 1;
 }
+
+#underConstruction{
+    width: 100%;
+    background-color: #49575d;
+    text-align: center;
+    color: white;
+    height: auto;
+    margin: 0px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    margin-bottom: 5px;
+}

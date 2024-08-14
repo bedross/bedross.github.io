@@ -32,23 +32,23 @@
 }
 
 #image-item-1{
-    background-image: url(/bedross.github.io/images/background.jpg);
+    background-image: url(/images/background.jpg);
 }
 
 #image-item-2{
-    background-image: url(/bedross.github.io/images/images/image-2.jpg);
+    background-image: url(/images/images/image-2.jpg);
 }
 
 #image-item-3{
-    background-image: url(/bedross.github.io/images/images/image-3.jpg);
+    background-image: url(/images/images/image-3.jpg);
 }
 
 #image-item-4{
-    background-image: url(/bedross.github.io/images/images/image-4.jpg);
+    background-image: url(/images/images/image-4.jpg);
 }
 
 #image-item-5{
-    background-image: url(/bedross.github.io/images/images/image-5.jpg);
+    background-image: url(/images/images/image-5.jpg);
 }
 
 .image-item:hover {
