@@ -19,6 +19,15 @@ body{
     overflow: hidden;
 }
 
+#subMenuBar{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-left: -13px;
+    box-shadow: 2px 2px 5px hwb(0 20% 80%);
+}
+
 #contactInfo{
     float: right;
     color: white;
@@ -117,13 +126,10 @@ body{
 }
 .menuBar .subMenuBar{
     display: none;
-    position: absolute;
-    margin-left: -13px;
-    margin-top: 75px;
+    position: relative;
     background-color: white;
     min-width: 100px;
-    box-shadow: 2px 2px 5px hwb(0 20% 80%);
-
+    text-align: center;
 }
 
 .menuBar:hover .subMenuBar{
