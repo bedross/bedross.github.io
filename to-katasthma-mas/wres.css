@@ -47,3 +47,30 @@
     margin-left: 5px;
     border-radius: 15%;
 }
+
+#location-text{
+    font-size: 2rem;
+    width: 50%;
+    float: left;
+}
+
+#to-katastima-mas{
+    width: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#to-katastima-mas-image{
+    width: 35%;
+    height: auto;
+}
+
+#about-us-text{
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#header-size{
+    font-size: 3rem;
+}
