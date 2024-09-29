@@ -9,12 +9,76 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    <div id="mobileMenu" class="hiddenMenu">
+        <div id="mobileMenuBarContnet">
+            <div id="mobileMenuBar">
+                <div id="mobileMenuHeader">
+                    <a href="#">
+                        <img src="/images/cross-button.png" id="cross-button" alt="press here to close the menu bar">
+                    </a>
+                </div>
+                <a href="/" id="mainLogoLink">
+                    <img id="mainLogo" style="filter: invert(100);" src="/images/logo_white.png" alt="This is the Originail and Her Logo">
+                </a>
+                <div class="menuBar">
+                    <button>ΥΠΗΡΕΣΙΕΣ</button>
+                    <div id="subMenuBar">
+                        <div class="subMenuBar">
+                            <a href="/yphresies/kourema/">ΚΟΥΡΕΜΑ</a>
+                            <a href="/yphresies/xtenisma/">ΧΤΕΝΙΣΜΑ</a>
+                            <a href="/yphresies/therapeies/">ΘΕΡΑΠΙΕΣ</a>
+                            <a href="/yphresies/vafh/">ΒΑΦΗ</a>
+                            <a href="">ΠΕΡΙΠΟΙΗΣΗ ΑΚΡΩΝ</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="menuBar">
+                    <button onclick="window.location.href='/fwtografies/'">ΦΩΤΟΓΡΑΦΙΕΣ</button>
+                </div>
+                <div class="menuBar">
+                    <button onclick="window.location.href='/to-katasthma-mas/';">ΤΟ ΚΑΤΑΣΤΗΜΑ ΜΑΣ</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mobileMenuBarFooter">
+            <div class="mobileMenuBarTelephone">
+                <a href="tel:2103647309" class="contactInfo">
+                    <p>Κλείστε Ραντεβού Μαζί Μας:</p>
+                    <p id="phoneNumber">21 0364 7309</p> 
+                </a>
+                <a href="tel:2103647309" class="contactInfo">
+                    <img id="telephone" src="/images/telephone-call.png" alt="Call Us Here Icon">
+                </a>
+            </div>
+            <div class="mobileMenuBarTelephone" id="mobileMenuSocial">
+                <a href="https://www.facebook.com/originailkolonaki/">
+                    <img class="social" src="/images/facebook.png" alt="This Button Goes to Out Facebook Page">
+                </a>
+                <p id="contactInfo"></p> 
+                <a href="https://www.instagram.com/originailandher.gr/">
+                    <img class="social" src="/images/instagram.png" alt="This Button Goes to Our Instagram Page">
+                </a>
+            </div>
+
+        </div>
+    </div>
     <div id="underConstruction">
         <p>Site Under Construction</p>
     </div>
-    <a href="/">
-        <img id="mainLogo" src="/images/logo_white.png" alt="This is the Originail and Her Logo">
-    </a>
+    <div id="mobileMenuButton">
+        <a href="#mobileMenu">
+        <img src="/images/menu.png" alt="click to open menu bar">
+        </a>
+    </div>
+    <div id="mainLogoPlaceholder">
+        <a href="/" id="mainLogoLink">
+            <img id="mainLogo" src="/images/logo_white.png" alt="This is the Originail and Her Logo">
+        </a>
+    </div>
+
+
     <div id="box1">
         <span>
             <div class="menuBar">

@@ -2,13 +2,19 @@ body{
     margin: 0px;
 }
 
+#mainLogoPlaceholder{
+    position: absolute;
+    float: left;
+    height: fit-content;
+    width: auto;
+    z-index: 0;
+}
+
+
 #mainLogo{
     height: 75px;
-    float: left;
     margin-left: 20px;
     margin-top: 10px;
-    position: absolute;
-
 }
 
 #box1{
@@ -26,6 +32,51 @@ body{
     margin-top: 75px;
     margin-left: -13px;
     box-shadow: 2px 2px 5px hwb(0 20% 80%);
+}
+
+#mobileMenuBar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mobileMenu:target{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    
+    animation-name: menuSlide;
+    animation-duration: 0.5s;
+}
+
+#mobileMenuBarContnet{
+    flex: 1;
+}
+
+#mobileMenuButton{
+    position: absolute;
+    z-index: 1;
+    filter: invert(100);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#mobileMenuHeader{
+    background-color: #49575d;
+    width: 100%;
+    height: 45px;
+}
+
+#cross-button{
+    width: 40px;
+    float: right;
+    filter: invert(100%);
 }
 
 #contactInfo{
@@ -77,6 +128,7 @@ body{
     margin-top: 17px;
     filter: invert();
 }
+
 
 #introduction-text{
     float: left;
@@ -165,6 +217,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .images{
@@ -199,6 +252,7 @@ body{
     background-color: rgb(193, 193, 193);
     width: 250px;
     height: 400px;
+    overflow: hidden;
 
 }
 
@@ -290,6 +344,10 @@ body{
     transition: all 1s;
 }
 
+.hiddenMenu{
+    display: none;
+}
+
 .show{
     opacity: 1;
 }
@@ -307,4 +365,72 @@ body{
     flex-direction: column;
     float: none;
     margin-bottom: 5px;
+}
+
+#mobileMenuBarFooter{
+    background-color: #49575d;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobileMenuBarTelephone{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#mobileMenuSocial{
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1037px){
+    #mainLogoPlaceholder{
+        position: relative;
+        float: none;
+        background-color: #49575d;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #box1{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:746px){
+    #tabletContactInfo{
+        display: none;
+    }
+}
+
+@media (max-width: 578px){
+    #box1{
+        display: none;
+    }
+    #contactInfo{
+        float: none;
+
+    }
+}
+
+@media (min-width: 578px){
+    #mobileMenu:target,
+    #mobileMenu,
+    #mobileMenuButton{
+        display: none;
+    }
+}
+
+@keyframes menuSlide{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
