@@ -168,6 +168,12 @@ body{
     margin-left: 75px;
 }
 
+#brands-cointainer{
+    width: 100%;
+    height: 200px;
+    background-color: #49575d;
+}
+
 .contactInfo{
     font-size: small;
     float: right;
@@ -450,6 +456,9 @@ body{
     #contactInfo{
         float: none;
 
+    }
+    #greetTitle{
+        font-size: x-large;
     }
 }
 
