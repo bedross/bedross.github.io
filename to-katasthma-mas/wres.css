@@ -58,6 +58,7 @@
     width: fit-content;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 #to-katastima-mas-image{
@@ -82,13 +83,34 @@
     #about-us-text{
     font-size: 1.5rem;
     }
+    #location-text{
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 700px){
+@media (max-width: 730px){
     #table-wres-leitourgias{
         width: 90%;
     }
     #about-us-text{
     font-size: 1.2rem;
+    }
+    #location-text{
+        font-size: 1.2rem;
+    }
+    #header-size{
+        font-size: 2rem;
+    }
+    #to-katastima-mas{
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 560px){
+    #to-katastima-mas{
+        margin-bottom: 20%;
+    }
+    #location-text{
+        font-size: 1rem;
     }
 }
