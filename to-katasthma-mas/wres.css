@@ -101,15 +101,9 @@
     #header-size{
         font-size: 2rem;
     }
-    #to-katastima-mas{
-        margin-bottom: 10%;
-    }
 }
 
 @media (max-width: 560px){
-    #to-katastima-mas{
-        margin-bottom: 20%;
-    }
     #location-text{
         font-size: 1rem;
     }
